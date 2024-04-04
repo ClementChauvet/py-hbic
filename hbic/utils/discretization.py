@@ -16,8 +16,9 @@ def discretize(data, nbins=10, var_type=None):
     for col_index, col_type in enumerate(var_type):
         if col_type == "Numeric":
             bins = np.linspace(np.nanmin(data[:, col_index]), np.nanmax(data[:, col_index]), nbins)
-            output_arr[:, col_index] = np.digitize(data[:, col_index], bins)
+            output_arr[:, col_index] = np.digitize(data[:, col_index], bins) - 1
         else:
-            output_arr[:, col_index] = data[:, col_index]
+            _, inverse = np.unique(data[:,col_index], return_inverse = True)
+            output_arr[:, col_index] = inverse
 
     return output_arr
