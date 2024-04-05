@@ -96,3 +96,11 @@ def score_biclusters(biclusters, data, var_type = "Numeric", lambda_hat = .5):
     s = s / max(s)
     final_score = lambda_hat * s + (1 - lambda_hat) * q 
     return(final_score)
+
+def L2_score_biclusters(biclusters, data, var_type = "Numeric", lambda_hat = .5):
+    q = quality_evaluation_biclusters(biclusters, data, var_type)
+    q = 1 - (q / max(max(q), 1))
+    s = sizes(biclusters)
+    s = s / max(s)
+    final_score = lambda_hat * s**2 + (1 - lambda_hat) * q**2
+    return(final_score)

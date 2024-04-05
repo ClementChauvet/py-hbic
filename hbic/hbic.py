@@ -1,8 +1,6 @@
 import numpy as np
 from tqdm import tqdm
 from collections.abc import Iterable
-from scipy.spatial.distance import squareform
-from scipy.cluster.hierarchy import dendrogram, linkage, cut_tree
 
 from .utils import distance, discretization, quality
 
@@ -187,12 +185,49 @@ class Hbic:
             todelete.sort(reverse=True)
             for j in todelete:
                 self.biclusters.pop(j)
+
+
+        
+    def _select_pareto_front(self):
+        """
+        Internal function to select biclusters in the pareto front and discard others
+        """
+        quality_scores = quality.quality_evaluation_biclusters(self.biclusters, self.data, self.var_type)
+        size_scores = quality.sizes(self.biclusters)
+        #normalisation 
+        quality_scores = 1 - (quality_scores / max(max(quality_scores), 1))
+        size_scores = 1 - (size_scores / max(max(size_scores), 1))
+        scores = zip(quality_scores, size_scores)
+        pareto_optimal_ind = distance.is_pareto_efficient(np.array(list(scores)))
+        self.biclusters = [self.biclusters[i] for i in range(len(self.biclusters)) if pareto_optimal_ind[i]]
+
+    def _select_distance(self):
+        """
+        Internal function to select biclusters by distance L2 distance to the origin of a quality, size graph
+        The selected biclusters are the n bics that are the closest to the origin, with n being the biggest gap in quality
+        """
+        scores = quality.L2_score_biclusters(self.biclusters, self.data, self.var_type)
+        sorted_scores = np.sort(scores)
+        # We reverse the array to select the last occurence of the biggest gap
+        differences = np.diff(sorted_scores)[::-1]
+        n_bic = len(differences) - np.argmax(differences)
+        selected = [bic for _, bic in sorted(zip(scores, self.biclusters), key = lambda t: t[0])][n_bic:]
+        self.biclusters = [s[1] for s in selected]
+
+        
     def reduce(self):
         """
         Reduce the number of biclusters found to self.n_clusters
 
         """
-        pass
+        if self.reduction == "pareto":
+            self._select_pareto_front()
+        elif self.reduction == "distance":
+            self._select_distance()
+        else:
+            raise ValueError(
+                "reduction parameter must be 'distance', 'pareto'"
+            )
 
             
         
@@ -262,13 +297,7 @@ class Hbic:
                     self.biclusters.append(biggest_bic)
         self._remove_repeated_bic()
         
-        if len(self.biclusters) > 1:
-            self.score = quality.score_biclusters(self.biclusters, data, var_type)
-        else:
-            self.score = []
-            
         self.reduce()
-        
         
         
     def fit_predict(self, data, var_type="Numeric"):
