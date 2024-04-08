@@ -22,3 +22,18 @@ def discretize(data, nbins=10, var_type=None):
             output_arr[:, col_index] = inverse
 
     return output_arr
+
+def infer_var_type(data):
+    """
+    Infer the type of each column of the data matrix
+
+    :param data: numpy.array containing all the data
+    :return: list of str indicating the type of each column of data from Numeric and Categorical
+    """
+    var_type = []
+    for col in data.T:
+        if np.unique(col).shape[0] < data.shape[0] / 10:
+            var_type.append("Categorical")
+        else:
+            var_type.append("Numeric")
+    return var_type

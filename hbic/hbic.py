@@ -233,7 +233,7 @@ class Hbic:
 
             
         
-    def fit(self, data, var_type="Numeric"):
+    def fit(self, data, var_type=None):
         """
         Use the Hbic algorithm to create biclusters
 
@@ -242,7 +242,9 @@ class Hbic:
         :param var_type: list of int indicating the type of each column of data
 
         """
-        if type(var_type) == str:
+        if var_type is None:
+            var_type = discretization.infer_var_type(data)
+        elif type(var_type) == str:
             var_type = np.full(data.shape[1], var_type)
         var_type = np.array(var_type)
         self.var_type = var_type
