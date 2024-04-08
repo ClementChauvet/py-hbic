@@ -224,9 +224,11 @@ class Hbic:
             self._select_pareto_front()
         elif self.reduction == "distance":
             self._select_distance()
+        elif self.reduction == None:
+            return
         else:
             raise ValueError(
-                "reduction parameter must be 'distance', 'pareto'"
+                "reduction parameter must be 'distance', 'pareto' or None"
             )
 
             
