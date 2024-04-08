@@ -304,7 +304,7 @@ class Hbic:
         self.reduce()
         
         
-    def fit_predict(self, data, var_type="Numeric"):
+    def fit_predict(self, data, var_type=None):
         """
         Use the Hbic algorithm and returns biclusters
 

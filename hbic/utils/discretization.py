@@ -17,7 +17,7 @@ def discretize(data, nbins=10, var_type=None):
         if col_type == "Numeric":
             bins = np.linspace(np.nanmin(data[:, col_index]), np.nanmax(data[:, col_index]), nbins)
             output_arr[:, col_index] = np.digitize(data[:, col_index], bins) - 1
-        else:
+        elif col_type == "Categorical":
             _, inverse = np.unique(data[:,col_index], return_inverse = True)
             output_arr[:, col_index] = inverse
 
