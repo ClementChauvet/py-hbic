@@ -195,7 +195,7 @@ class Hbic:
         quality_scores = quality.quality_evaluation_biclusters(self.biclusters, self.data, self.var_type)
         size_scores = quality.sizes(self.biclusters)
         #normalisation 
-        quality_scores = 1 - (quality_scores / max(max(quality_scores), 1))
+        quality_scores = (quality_scores / max(max(quality_scores), 1))
         size_scores = 1 - (size_scores / max(max(size_scores), 1))
         scores = zip(quality_scores, size_scores)
         pareto_optimal_ind = distance.is_pareto_efficient(np.array(list(scores)))
@@ -207,12 +207,15 @@ class Hbic:
         The selected biclusters are the n bics that are the closest to the origin, with n being the biggest gap in quality
         """
         scores = quality.L2_score_biclusters(self.biclusters, self.data, self.var_type)
-        sorted_scores = np.sort(scores)
+        sorted_scores = np.sort(scores)[::-1]
+        if sorted_scores[0] == np.mean(sorted_scores): #If score is constant we keep all biclusters
+            n_bic = len(sorted_scores)
+        else:
+            differences = np.diff(sorted_scores)[::-1]
+            n_bic = len(differences) - np.argmin(differences) 
         # We reverse the array to select the last occurence of the biggest gap
-        differences = np.diff(sorted_scores)[::-1]
-        n_bic = len(differences) - np.argmax(differences)
-        selected = [bic for _, bic in sorted(zip(scores, self.biclusters), key = lambda t: t[0])][n_bic:]
-        self.biclusters = [s[1] for s in selected]
+        selected = [bic for _, bic in sorted(zip(scores, self.biclusters), key = lambda t: t[0])][-n_bic:]
+        self.biclusters = [s for s in selected]
 
         
     def reduce(self):
