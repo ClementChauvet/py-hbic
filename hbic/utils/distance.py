@@ -49,6 +49,8 @@ def is_pareto_efficient(costs, return_mask = True):
     :return: An array of indices of pareto-efficient points.
         If return_mask is True, this will be an (n_points, ) boolean array
         Otherwise it will be a (n_efficient_points, ) integer array of indices.
+    
+    Credits: Peter https://stackoverflow.com/questions/32791911/fast-calculation-of-pareto-front-in-python
     """
     is_efficient = np.arange(costs.shape[0])
     n_points = costs.shape[0]
