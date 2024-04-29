@@ -1,0 +1,299 @@
+Total of planted biclusters: 5
+Number of planted numeric biclusters: 1
+Number of planted symbolic biclusters: 2
+Number of planted mixed biclusters: 2
+Bicluster coverage: 2.5%
+Missing values on dataset: 0.0%
+Noise values on dataset: 0.0%
+Errors on dataset: 0.0%
+
+
+*** Numeric Biclusters *** 
+
+Bicluster #2 (50, 50)
+Rows=[7,8,47,124,153,167,168,187,208,217,237,269,301,310,311,324,325,329,353,370,372,378,388,396,423,431,467,484,489,493,497,528,540,584,609,635,674,680,681,692,741,788,813,828,829,860,918,957,970,973], Columns=[7,8,9,27,37,41,52,57,58,59,70,76,78,82,86,88,97,108,113,119,128,143,145,150,162,178,180,184,185,196,197,207,216,218,228,242,243,271,274,276,278,286,304,312,325,347,351,352,360,361], RowPattern=Constant, ColumnPattern=None, %Missings=0, %Noise=0, %Errors=0, PlaidCoherency=No Overlapping
+
+X	y7	y8	y9	y27	y37	y41	y52	y57	y58	y59	y70	y76	y78	y82	y86	y88	y97	y108	y113	y119	y128	y143	y145	y150	y162	y178	y180	y184	y185	y196	y197	y207	y216	y218	y228	y242	y243	y271	y274	y276	y278	y286	y304	y312	y325	y347	y351	y352	y360	y361
+x7	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x8	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x47	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x124	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x153	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x167	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x168	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x187	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x208	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x217	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x237	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x269	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x301	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x310	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x311	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x324	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x325	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x329	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x353	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x370	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x372	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x378	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x388	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x396	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x423	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x431	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x467	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x484	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x489	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x493	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x497	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x528	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x540	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x584	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x609	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x635	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x674	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x680	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x681	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x692	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x741	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x788	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x813	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x828	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x829	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x860	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x918	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x957	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x970	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+x973	0.52	2.03	6.75	-7.91	7.37	-2.19	-7.28	-1.19	1.4	-5.26	-3.44	-8.99	8.16	-0.92	-0.53	8.68	1.49	9.22	-6.09	6.35	-7.58	0.02	7.71	-4.27	1.74	-9.25	2.93	-5.66	-2.97	2.79	9.65	6.81	-5.47	-3.47	8.9	5.98	-0.34	-0.82	-3.86	9.42	5.98	-4.81	-3.16	3.82	-8.21	9.29	9.24	-5.85	5.88	8.33
+
+
+*** Symbolic Biclusters *** 
+
+Bicluster #0 (50, 50)
+Rows=[12,74,76,99,103,112,126,129,135,139,212,245,264,284,297,345,358,379,446,447,455,460,551,553,574,660,673,690,701,712,717,729,755,768,779,784,802,808,818,860,867,875,877,911,933,937,956,969,972,981], Columns=[376,377,382,385,387,390,394,397,399,404,406,408,409,411,412,413,414,416,431,436,437,439,440,441,443,445,457,459,461,463,464,465,466,471,473,477,478,479,480,481,482,483,484,488,489,490,491,493,495,497], RowPattern=Constant, ColumnPattern=None, %Missings=0, %Noise=0, %Errors=0 PlaidCoherency=No Overlapping
+
+X	y376	y377	y382	y385	y387	y390	y394	y397	y399	y404	y406	y408	y409	y411	y412	y413	y414	y416	y431	y436	y437	y439	y440	y441	y443	y445	y457	y459	y461	y463	y464	y465	y466	y471	y473	y477	y478	y479	y480	y481	y482	y483	y484	y488	y489	y490	y491	y493	y495	y497
+x12	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x74	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x76	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x99	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x103	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x112	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x126	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x129	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x135	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x139	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x212	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x245	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x264	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x284	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x297	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x345	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x358	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x379	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x446	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x447	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x455	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x460	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x551	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x553	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x574	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x660	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x673	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x690	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x701	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x712	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x717	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x729	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x755	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x768	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x779	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x784	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x802	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x808	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x818	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x860	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x867	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x875	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x877	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x911	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x933	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x937	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x956	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x969	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x972	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+x981	ff	aa	bb	bb	dd	ff	hh	bb	dd	cc	bb	ii	dd	gg	dd	jj	cc	hh	ii	bb	hh	gg	gg	dd	gg	ff	ii	ee	gg	gg	ff	aa	bb	ff	cc	hh	gg	gg	ee	ee	cc	hh	ff	jj	ii	bb	ee	cc	aa	dd
+
+Bicluster #1 (50, 50)
+Rows=[12,17,33,36,45,49,52,66,69,72,130,154,173,186,211,275,281,287,336,345,352,380,438,457,460,468,480,481,490,505,515,523,582,587,606,627,628,733,749,807,812,838,864,888,890,918,930,957,962,968], Columns=[375,383,388,389,391,393,395,396,398,400,401,402,403,405,407,410,415,418,419,420,421,422,424,426,427,428,432,433,434,435,446,448,449,450,452,453,454,455,458,460,467,469,470,475,476,486,487,492,498,499], RowPattern=Constant, ColumnPattern=None, %Missings=0, %Noise=0, %Errors=0 PlaidCoherency=No Overlapping
+
+X	y375	y383	y388	y389	y391	y393	y395	y396	y398	y400	y401	y402	y403	y405	y407	y410	y415	y418	y419	y420	y421	y422	y424	y426	y427	y428	y432	y433	y434	y435	y446	y448	y449	y450	y452	y453	y454	y455	y458	y460	y467	y469	y470	y475	y476	y486	y487	y492	y498	y499
+x12	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x17	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x33	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x36	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x45	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x49	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x52	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x66	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x69	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x72	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x130	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x154	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x173	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x186	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x211	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x275	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x281	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x287	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x336	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x345	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x352	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x380	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x438	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x457	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x460	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x468	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x480	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x481	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x490	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x505	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x515	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x523	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x582	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x587	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x606	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x627	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x628	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x733	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x749	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x807	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x812	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x838	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x864	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x888	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x890	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x918	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x930	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x957	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x962	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+x968	bb	cc	hh	jj	ff	aa	hh	gg	bb	ii	hh	cc	bb	cc	bb	jj	aa	aa	dd	ff	gg	ii	aa	ff	hh	gg	cc	ii	cc	gg	jj	gg	aa	bb	ii	gg	ee	bb	bb	gg	gg	ff	cc	gg	cc	dd	dd	ii	ii	gg
+
+
+*** Mixed Biclusters *** 
+
+Bicluster #3 (50, 50)
+Rows=[21,24,37,38,57,84,88,93,123,132,143,159,168,176,193,216,221,250,254,255,298,299,310,328,357,368,378,386,409,413,469,475,517,544,571,585,601,629,656,666,688,723,734,751,793,799,809,887,915,989], Numeric Columns=[56,63,64,73,89,101,136,161,176,215,225,246,263,282,297,339], Symbolic Columns=[378,379,380,381,384,386,392,396,400,417,423,425,429,430,438,442,444,447,449,451,453,456,462,466,468,470,472,474,485,486,488,493,494,496]
+Numeric Properties:  RowPattern=Constant, ColumnPattern=None, PlaidCoherency=No Overlapping
+Symbolic Properties:  RowPattern=Constant, ColumnPattern=None
+%Missings=0, %Noise=0, %Errors=0,
+
+X	y56	y63	y64	y73	y89	y101	y136	y161	y176	y215	y225	y246	y263	y282	y297	y339	y378	y379	y380	y381	y384	y386	y392	y396	y400	y417	y423	y425	y429	y430	y438	y442	y444	y447	y449	y451	y453	y456	y462	y466	y468	y470	y472	y474	y485	y486	y488	y493	y494	y496
+x21	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x24	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x37	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x38	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x57	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x84	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x88	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x93	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x123	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x132	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x143	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x159	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x168	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x176	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x193	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x216	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x221	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x250	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x254	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x255	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x298	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x299	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x310	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x328	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x357	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x368	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x378	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x386	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x409	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x413	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x469	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x475	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x517	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x544	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x571	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x585	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x601	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x629	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x656	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x666	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x688	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x723	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x734	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x751	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x793	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x799	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x809	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x887	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x915	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+x989	-0.64	-8.54	8.04	-9.2	9.07	9.58	-8.26	9.43	-8.03	7.36	-7.72	-5.65	3.53	-8.1	8.49	8.97	ee	bb	ee	bb	gg	ii	ii	ee	dd	ee	jj	dd	jj	hh	dd	cc	hh	gg	cc	cc	ii	ff	cc	ii	ee	ee	gg	gg	hh	dd	ff	jj	jj	bb
+
+Bicluster #4 (50, 50)
+Rows=[22,83,90,97,131,157,163,171,182,187,226,248,251,257,269,300,320,346,372,377,384,396,400,407,420,437,455,458,487,493,514,518,565,574,575,614,625,651,663,677,760,763,775,811,825,835,855,894,995,996], Numeric Columns=[1,6,17,20,26,49,50,91,93,94,100,102,106,110,112,116,118,137,153,157,169,174,183,186,188,190,202,206,208,221,241,248,254,272,279,281,289,290,293,303,307,336,353,355,374], Symbolic Columns=[386,392,422,470,499]
+Numeric Properties:  RowPattern=Constant, ColumnPattern=None, PlaidCoherency=No Overlapping
+Symbolic Properties:  RowPattern=Constant, ColumnPattern=None
+%Missings=0, %Noise=0, %Errors=0,
+
+X	y1	y6	y17	y20	y26	y49	y50	y91	y93	y94	y100	y102	y106	y110	y112	y116	y118	y137	y153	y157	y169	y174	y183	y186	y188	y190	y202	y206	y208	y221	y241	y248	y254	y272	y279	y281	y289	y290	y293	y303	y307	y336	y353	y355	y374	y386	y392	y422	y470	y499
+x22	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x83	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x90	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x97	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x131	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x157	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x163	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x171	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x182	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x187	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x226	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x248	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x251	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x257	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x269	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x300	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x320	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x346	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x372	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x377	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x384	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x396	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x400	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x407	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x420	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x437	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x455	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x458	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x487	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x493	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x514	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x518	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x565	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x574	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x575	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x614	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x625	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x651	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x663	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x677	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x760	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x763	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x775	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x811	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x825	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x835	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x855	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x894	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x995	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+x996	-5.07	-1.73	-9.26	-8.68	3.88	0.93	1.25	2.84	4.44	0.56	4.29	-6.78	-9.76	-2.72	6.11	4.83	9.03	7.03	-5.73	-3.78	-4.03	-4.85	8.52	-5.02	5.82	3.71	-6.24	6.42	-5.08	2.19	2.27	8.92	2.24	-4.45	4.28	-3.05	8.09	3.55	-2.28	7.68	9	0.97	0.91	8.2	-2.37	jj	aa	bb	hh	jj
+

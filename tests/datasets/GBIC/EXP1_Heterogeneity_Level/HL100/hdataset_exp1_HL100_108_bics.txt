@@ -1,0 +1,282 @@
+Number of planted biclusters: 5
+Bicluster coverage: 2.5%
+Missing values on dataset: 0.0%
+Noise values on dataset: 0.0%
+Errors on dataset: 0.0%
+
+
+Bicluster #0 (50, 50)
+Rows=[14,55,75,90,200,243,248,267,268,272,273,290,291,313,326,342,362,382,408,411,421,430,450,452,457,462,503,544,546,560,584,595,635,683,695,696,709,733,788,792,795,811,841,842,857,864,909,913,992,998], Columns=[8,24,32,52,61,63,64,66,81,82,85,102,112,115,119,121,139,146,148,149,174,191,204,215,223,226,227,229,242,258,264,271,274,275,283,285,296,299,331,345,351,357,358,368,413,419,427,441,458,460], RowPattern=Constant, ColumnPattern=None, %Missings=0, %Noise=0, %Errors=0 PlaidCoherency=No Overlapping
+
+X	y8	y24	y32	y52	y61	y63	y64	y66	y81	y82	y85	y102	y112	y115	y119	y121	y139	y146	y148	y149	y174	y191	y204	y215	y223	y226	y227	y229	y242	y258	y264	y271	y274	y275	y283	y285	y296	y299	y331	y345	y351	y357	y358	y368	y413	y419	y427	y441	y458	y460
+x14	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x55	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x75	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x90	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x200	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x243	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x248	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x267	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x268	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x272	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x273	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x290	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x291	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x313	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x326	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x342	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x362	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x382	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x408	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x411	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x421	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x430	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x450	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x452	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x457	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x462	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x503	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x544	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x546	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x560	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x584	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x595	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x635	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x683	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x695	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x696	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x709	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x733	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x788	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x792	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x795	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x811	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x841	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x842	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x857	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x864	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x909	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x913	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x992	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+x998	ff	ii	aa	cc	hh	jj	bb	ii	ii	ee	jj	dd	hh	jj	ee	dd	dd	hh	aa	cc	jj	ff	hh	dd	gg	ii	ii	dd	ff	hh	ee	jj	hh	ii	hh	ff	dd	ii	cc	gg	bb	hh	aa	bb	ii	aa	ee	cc	ii	gg
+
+Bicluster #1 (50, 50)
+Rows=[49,61,70,77,140,144,168,246,261,314,332,350,382,384,393,394,402,423,424,432,487,514,522,554,563,635,645,667,668,700,703,707,723,755,776,803,811,824,829,831,851,863,870,910,928,931,934,977,979,988], Columns=[23,35,41,47,50,71,79,84,88,107,109,117,128,134,137,144,156,160,167,168,203,206,209,210,217,220,248,269,286,288,306,333,350,354,360,362,364,383,392,400,431,435,437,448,461,467,478,480,491,499], RowPattern=Constant, ColumnPattern=None, %Missings=0, %Noise=0, %Errors=0 PlaidCoherency=No Overlapping
+
+X	y23	y35	y41	y47	y50	y71	y79	y84	y88	y107	y109	y117	y128	y134	y137	y144	y156	y160	y167	y168	y203	y206	y209	y210	y217	y220	y248	y269	y286	y288	y306	y333	y350	y354	y360	y362	y364	y383	y392	y400	y431	y435	y437	y448	y461	y467	y478	y480	y491	y499
+x49	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x61	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x70	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x77	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x140	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x144	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x168	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x246	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x261	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x314	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x332	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x350	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x382	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x384	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x393	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x394	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x402	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x423	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x424	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x432	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x487	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x514	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x522	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x554	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x563	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x635	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x645	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x667	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x668	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x700	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x703	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x707	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x723	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x755	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x776	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x803	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x811	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x824	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x829	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x831	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x851	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x863	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x870	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x910	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x928	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x931	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x934	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x977	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x979	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+x988	dd	hh	hh	jj	cc	gg	ee	bb	ff	ee	bb	ee	jj	ff	gg	ii	hh	jj	jj	jj	jj	ii	jj	jj	bb	jj	ff	cc	bb	hh	cc	ii	aa	dd	ee	cc	ff	hh	gg	cc	gg	ii	ee	ii	gg	ff	gg	cc	bb	ii
+
+Bicluster #2 (50, 50)
+Rows=[9,18,24,28,40,82,97,100,106,107,170,184,203,276,297,298,300,310,320,345,350,377,479,495,496,520,530,574,591,640,656,661,665,667,680,736,743,769,772,778,780,813,818,842,895,914,919,934,952,996], Columns=[2,7,13,21,28,38,57,60,73,74,89,135,150,182,185,189,194,197,208,230,233,235,236,241,244,245,247,251,252,253,256,293,310,329,344,352,361,363,386,390,393,397,402,403,420,425,428,430,434,459], RowPattern=Constant, ColumnPattern=None, %Missings=0, %Noise=0, %Errors=0 PlaidCoherency=No Overlapping
+
+X	y2	y7	y13	y21	y28	y38	y57	y60	y73	y74	y89	y135	y150	y182	y185	y189	y194	y197	y208	y230	y233	y235	y236	y241	y244	y245	y247	y251	y252	y253	y256	y293	y310	y329	y344	y352	y361	y363	y386	y390	y393	y397	y402	y403	y420	y425	y428	y430	y434	y459
+x9	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x18	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x24	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x28	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x40	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x82	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x97	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x100	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x106	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x107	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x170	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x184	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x203	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x276	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x297	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x298	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x300	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x310	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x320	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x345	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x350	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x377	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x479	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x495	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x496	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x520	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x530	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x574	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x591	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x640	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x656	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x661	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x665	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x667	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x680	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x736	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x743	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x769	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x772	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x778	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x780	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x813	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x818	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x842	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x895	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x914	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x919	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x934	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x952	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+x996	bb	jj	gg	ff	cc	dd	ii	ee	ee	dd	ii	jj	jj	cc	ee	cc	ee	ii	ee	ff	aa	cc	hh	cc	hh	ii	gg	ii	ee	jj	jj	cc	gg	dd	cc	jj	gg	aa	jj	gg	hh	ee	ii	dd	hh	dd	aa	hh	bb	jj
+
+Bicluster #3 (50, 50)
+Rows=[1,9,21,42,64,90,92,128,131,141,151,172,174,193,204,207,235,237,274,281,323,330,342,392,395,410,412,434,478,487,489,494,525,611,774,778,787,815,824,832,835,858,867,890,909,910,935,973,982,991], Columns=[6,14,19,25,42,62,67,68,76,86,104,124,126,147,166,180,192,200,213,214,222,228,232,246,250,261,266,268,280,281,287,291,294,323,325,326,327,334,346,349,359,365,377,408,418,422,424,436,477,488], RowPattern=Constant, ColumnPattern=None, %Missings=0, %Noise=0, %Errors=0 PlaidCoherency=No Overlapping
+
+X	y6	y14	y19	y25	y42	y62	y67	y68	y76	y86	y104	y124	y126	y147	y166	y180	y192	y200	y213	y214	y222	y228	y232	y246	y250	y261	y266	y268	y280	y281	y287	y291	y294	y323	y325	y326	y327	y334	y346	y349	y359	y365	y377	y408	y418	y422	y424	y436	y477	y488
+x1	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x9	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x21	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x42	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x64	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x90	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x92	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x128	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x131	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x141	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x151	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x172	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x174	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x193	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x204	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x207	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x235	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x237	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x274	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x281	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x323	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x330	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x342	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x392	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x395	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x410	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x412	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x434	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x478	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x487	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x489	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x494	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x525	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x611	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x774	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x778	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x787	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x815	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x824	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x832	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x835	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x858	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x867	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x890	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x909	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x910	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x935	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x973	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x982	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+x991	gg	bb	ee	ii	bb	ff	ff	jj	hh	ff	ee	hh	bb	jj	ee	cc	ff	dd	jj	gg	bb	ii	ii	bb	jj	ee	bb	ii	ee	ff	jj	gg	aa	cc	hh	jj	hh	ii	ff	aa	jj	jj	bb	ii	dd	aa	hh	ff	gg	gg
+
+Bicluster #4 (50, 50)
+Rows=[1,55,92,116,133,137,163,165,190,197,201,267,294,302,322,345,448,460,481,508,528,529,565,573,582,602,640,647,651,662,696,699,700,714,716,776,798,811,813,846,864,879,910,915,921,937,956,970,971,984], Columns=[4,22,30,39,53,58,59,77,94,95,108,114,155,164,171,179,196,205,207,221,231,243,259,262,265,270,284,290,295,298,300,317,321,324,338,356,369,381,398,438,440,468,470,471,481,485,489,492,493,495], RowPattern=Constant, ColumnPattern=None, %Missings=0, %Noise=0, %Errors=0 PlaidCoherency=No Overlapping
+
+X	y4	y22	y30	y39	y53	y58	y59	y77	y94	y95	y108	y114	y155	y164	y171	y179	y196	y205	y207	y221	y231	y243	y259	y262	y265	y270	y284	y290	y295	y298	y300	y317	y321	y324	y338	y356	y369	y381	y398	y438	y440	y468	y470	y471	y481	y485	y489	y492	y493	y495
+x1	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x55	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x92	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x116	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x133	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x137	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x163	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x165	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x190	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x197	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x201	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x267	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x294	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x302	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x322	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x345	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x448	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x460	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x481	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x508	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x528	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x529	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x565	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x573	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x582	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x602	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x640	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x647	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x651	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x662	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x696	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x699	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x700	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x714	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x716	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x776	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x798	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x811	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x813	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x846	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x864	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x879	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x910	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x915	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x921	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x937	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x956	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x970	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x971	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+x984	gg	hh	cc	cc	bb	hh	ii	aa	bb	cc	gg	aa	dd	bb	gg	hh	cc	aa	bb	jj	dd	gg	ee	aa	dd	ff	hh	ii	jj	aa	cc	bb	bb	cc	bb	bb	ii	ee	ii	dd	ff	ee	ii	hh	jj	cc	hh	aa	ee	hh
+
