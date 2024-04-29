@@ -201,24 +201,24 @@ class Hbic:
         pareto_optimal_ind = distance.is_pareto_efficient(np.array(list(scores)))
         self.biclusters = [self.biclusters[i] for i in range(len(self.biclusters)) if pareto_optimal_ind[i]]
 
-    def _select_distance(self):
+    def _select_distance(self, n_bic):
         """
         Internal function to select biclusters by distance L2 distance to the origin of a quality, size graph
         The selected biclusters are the n bics that are the closest to the origin, with n being the biggest gap in quality
         """
         scores = quality.L2_score_biclusters(self.biclusters, self.data, self.var_type)
         sorted_scores = np.sort(scores)[::-1]
-        if sorted_scores[0] == np.mean(sorted_scores): #If score is constant we keep all biclusters
-            n_bic = len(sorted_scores)
-        else:
-            differences = np.diff(sorted_scores)[::-1]
-            n_bic = len(differences) - np.argmin(differences) 
-        # We reverse the array to select the last occurence of the biggest gap
+        if n_bic is None:
+            if sorted_scores[0] == np.mean(sorted_scores): #If score is constant we keep all biclusters
+                n_bic = len(sorted_scores)
+            else:
+                differences = np.diff(sorted_scores)[::-1]
+                n_bic = len(differences) - np.argmin(differences) 
         selected = [bic for _, bic in sorted(zip(scores, self.biclusters), key = lambda t: t[0])][-n_bic:]
         self.biclusters = [s for s in selected]
 
         
-    def reduce(self):
+    def reduce(self, n_clusters):
         """
         Reduce the number of biclusters found to self.n_clusters
 
@@ -226,7 +226,7 @@ class Hbic:
         if self.reduction == "pareto":
             self._select_pareto_front()
         elif self.reduction == "distance":
-            self._select_distance()
+            self._select_distance(n_clusters)
         elif self.reduction == None:
             return
         else:
@@ -236,7 +236,7 @@ class Hbic:
 
             
         
-    def fit(self, data, var_type=None):
+    def fit(self, data, var_type=None, n_clusters = None):
         """
         Use the Hbic algorithm to create biclusters
 
@@ -257,6 +257,7 @@ class Hbic:
         self.n_minrows = max(int(n_rows * self.min_rows_prop), self.min_rows_abs)
         self.biclusters = []
 
+        
         arr_discretized = discretization.discretize(data, self.nbins, var_type)
 
         # We consider each column and each value of each column as a starting point
@@ -304,10 +305,10 @@ class Hbic:
                     self.biclusters.append(biggest_bic)
         self._remove_repeated_bic()
         
-        self.reduce()
+        self.reduce(n_clusters)
         
         
-    def fit_predict(self, data, var_type=None):
+    def fit_predict(self, data, var_type=None, n_clusters = None):
         """
         Use the Hbic algorithm and returns biclusters
 
