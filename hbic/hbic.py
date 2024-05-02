@@ -13,6 +13,8 @@ class Hbic:
         n_clusters="auto",
         reduction=None,
         verbose=False,
+        random_state=None,
+        column_proportion=1,
     ):
         """
         Initialize an object of class Hbic
@@ -104,6 +106,8 @@ class Hbic:
         self.reduction = reduction
         self.verbose = verbose
         self.nbins = nbins
+        self.column_proportion = column_proportion
+        self.random_state = np.random.RandomState(random_state)
 
     def _find_best_column(self, arr_discretized, unclustered_columns):
         """
@@ -259,9 +263,11 @@ class Hbic:
 
         
         arr_discretized = discretization.discretize(data, self.nbins, var_type)
+        starting_columns = range(n_cols)
+        starting_columns = self.random_state.choice(starting_columns, int(n_cols * self.column_proportion), replace=False)
 
         # We consider each column and each value of each column as a starting point
-        for col_index in tqdm(range(n_cols), disable=not self.verbose):
+        for col_index in tqdm(starting_columns, disable=not self.verbose):
             # Used in _find_best_column for optimisation purposes
             self.check = True
 
