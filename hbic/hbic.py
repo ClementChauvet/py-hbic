@@ -460,6 +460,6 @@ class Hbic:
         first array is a mask on the rows and the second is a mask on the columns
         """
 
-        self.fit(data, var_type)
+        self.fit(data, var_type, n_clusters)
 
         return self.biclusters
