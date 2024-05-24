@@ -125,28 +125,60 @@ class Hbic:
         first the value with the highest count in any column and the index of said column
         """
 
-        # If the number of rows did not change when adding the previous column
-        # we don't need to run the previous computations we just discard the column
+        # store a (length of columns,  4) matrix where first column is the count of the most frequent value in the column, second column is the value, 
+        #third column is a boolean if the column is selected and fourth column is the index of the column in the original data
+        
         if self.check:
-            self.iteration_counts = np.zeros(unclustered_columns.shape)
-            self.iteration_values = np.zeros(unclustered_columns.shape)
+            iteration_counts = np.zeros(unclustered_columns.shape)
+            iteration_values = np.zeros(unclustered_columns.shape)
+            selected_columns = np.zeros(unclustered_columns.shape)
             for i in range(len(unclustered_columns)):
                 values, counts = np.unique(
                     arr_discretized[:, unclustered_columns[i]], return_counts=True
                 )
                 max_index = np.argmax(counts)
-                self.iteration_counts[i] = counts[max_index]
-                self.iteration_values[i] = values[max_index]
-
-        max_col = np.argmax(self.iteration_counts)
-        value, column = self.iteration_values[max_col], unclustered_columns[max_col]
-        if arr_discretized.shape[0] != self.iteration_counts[max_col]:
-            self.check = True
-        else:
+                iteration_counts[i] = counts[max_index]
+                iteration_values[i] = values[max_index]
+            self.iteration_matrix = np.column_stack((iteration_counts, iteration_values, selected_columns, unclustered_columns))
+            self.iteration_matrix = self.iteration_matrix[self.iteration_matrix[:, 0].argsort()]
+            self.iteration_matrix = self.iteration_matrix[::-1]
+            value, column = self.iteration_matrix[0,1], int(self.iteration_matrix[0,3])
+            self.iteration_matrix = self.iteration_matrix[1:]
             self.check = False
-            self.iteration_values = np.delete(self.iteration_values, max_col)
-            self.iteration_counts = np.delete(self.iteration_counts, max_col)
-        return value, column
+            return value, column
+
+
+        if self.iteration_matrix.shape[0] == 1:
+            values, counts = np.unique(
+                    arr_discretized[:, int(self.iteration_matrix[0, 3])], return_counts=True
+                )
+            max_index = np.argmax(counts)
+            value = values[max_index]
+            column = int(self.iteration_matrix[0, 3])
+            return value, column
+        
+        if self.iteration_matrix.shape[0] == 0:
+            raise ValueError("No column found")
+        
+
+        current_comparison = 1
+        while True:
+            values, counts = np.unique(
+                    arr_discretized[:, int(self.iteration_matrix[0, 3])], return_counts=True
+                )
+            max_index = np.argmax(counts)
+            if self.iteration_matrix[current_comparison, 0] <= counts[max_index]:
+                value = values[max_index]
+                column = int(self.iteration_matrix[0, 3])
+                self.iteration_matrix = self.iteration_matrix[1:]
+                return value,column
+            else:
+                self.iteration_matrix[0, 0] = counts[max_index]
+                self.iteration_matrix[0, 1] = values[max_index]
+                self.iteration_matrix = self.iteration_matrix[self.iteration_matrix[:, 0].argsort()]
+                self.iteration_matrix = self.iteration_matrix[::-1]
+
+        raise ValueError("No column found")
 
     def _add_column(self, cols_ids_bic, rows_ids_bic, column, rows):
         """
@@ -227,6 +259,8 @@ class Hbic:
         Reduce the number of biclusters found to self.n_clusters
 
         """
+        if len(self.biclusters) == 0:
+            return
         if self.reduction == "pareto":
             self._select_pareto_front()
         elif self.reduction == "distance":
