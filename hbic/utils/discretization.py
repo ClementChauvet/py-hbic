@@ -15,12 +15,17 @@ def discretize(data, nbins=10, var_type=None):
     output_arr = np.zeros(data.shape)
     for col_index, col_type in enumerate(var_type):
         if col_type == "Numeric":
-            bins = np.linspace(np.nanmin(data[:, col_index]), np.nanmax(data[:, col_index]), nbins)
-            output_arr[:, col_index] = np.digitize(data[:, col_index], bins) - 1
+            nan_mask = np.isnan(data[:,col_index])
+            if nan_mask.any():
+                bins = np.linspace(np.nanmin(data[:, col_index]), np.nanmax(data[:, col_index]), nbins - 1)
+                output_arr[:, col_index] = np.digitize(data[:, col_index], bins) - 1
+                output_arr[:,col_index] = np.nan_to_num(data[:,col_index], nan = -1)
+            else:
+                bins = np.linspace(np.min(data[:, col_index]), np.max(data[:, col_index]), nbins)
+                output_arr[:, col_index] = np.digitize(data[:, col_index], bins) - 1
         elif col_type == "Categorical":
             _, inverse = np.unique(data[:,col_index], return_inverse = True)
             output_arr[:, col_index] = inverse
-
     return output_arr
 
 def infer_var_type(data):
