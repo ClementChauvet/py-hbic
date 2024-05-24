@@ -3,7 +3,6 @@ from tqdm import tqdm
 from collections.abc import Iterable
 from scipy.spatial.distance import squareform
 from scipy.cluster.hierarchy import dendrogram, linkage, cut_tree
-
 from .utils import distance, discretization, quality
 
 class Hbic:
@@ -15,6 +14,8 @@ class Hbic:
         n_clusters="auto",
         reduction=None,
         verbose=False,
+        random_state=None,
+        column_proportion=1,
     ):
         """
         Initialize an object of class Hbic
@@ -106,6 +107,8 @@ class Hbic:
         self.reduction = reduction
         self.verbose = verbose
         self.nbins = nbins
+        self.column_proportion = column_proportion
+        self.random_state = np.random.RandomState(random_state)
 
     def _find_best_column(self, arr_discretized, unclustered_columns):
         """
@@ -123,28 +126,60 @@ class Hbic:
         first the value with the highest count in any column and the index of said column
         """
 
-        # If the number of rows did not change when adding the previous column
-        # we don't need to run the previous computations we just discard the column
+        # store a (length of columns,  4) matrix where first column is the count of the most frequent value in the column, second column is the value, 
+        #third column is a boolean if the column is selected and fourth column is the index of the column in the original data
+        
         if self.check:
-            self.iteration_counts = np.zeros(unclustered_columns.shape)
-            self.iteration_values = np.zeros(unclustered_columns.shape)
+            iteration_counts = np.zeros(unclustered_columns.shape)
+            iteration_values = np.zeros(unclustered_columns.shape)
+            selected_columns = np.zeros(unclustered_columns.shape)
             for i in range(len(unclustered_columns)):
                 values, counts = np.unique(
                     arr_discretized[:, unclustered_columns[i]], return_counts=True
                 )
                 max_index = np.argmax(counts)
-                self.iteration_counts[i] = counts[max_index]
-                self.iteration_values[i] = values[max_index]
-
-        max_col = np.argmax(self.iteration_counts)
-        value, column = self.iteration_values[max_col], unclustered_columns[max_col]
-        if arr_discretized.shape[0] != self.iteration_counts[max_col]:
-            self.check = True
-        else:
+                iteration_counts[i] = counts[max_index]
+                iteration_values[i] = values[max_index]
+            self.iteration_matrix = np.column_stack((iteration_counts, iteration_values, selected_columns, unclustered_columns))
+            self.iteration_matrix = self.iteration_matrix[self.iteration_matrix[:, 0].argsort()]
+            self.iteration_matrix = self.iteration_matrix[::-1]
+            value, column = self.iteration_matrix[0,1], int(self.iteration_matrix[0,3])
+            self.iteration_matrix = self.iteration_matrix[1:]
             self.check = False
-            self.iteration_values = np.delete(self.iteration_values, max_col)
-            self.iteration_counts = np.delete(self.iteration_counts, max_col)
-        return value, column
+            return value, column
+
+
+        if self.iteration_matrix.shape[0] == 1:
+            values, counts = np.unique(
+                    arr_discretized[:, int(self.iteration_matrix[0, 3])], return_counts=True
+                )
+            max_index = np.argmax(counts)
+            value = values[max_index]
+            column = int(self.iteration_matrix[0, 3])
+            return value, column
+        
+        if self.iteration_matrix.shape[0] == 0:
+            raise ValueError("No column found")
+        
+
+        current_comparison = 1
+        while True:
+            values, counts = np.unique(
+                    arr_discretized[:, int(self.iteration_matrix[0, 3])], return_counts=True
+                )
+            max_index = np.argmax(counts)
+            if self.iteration_matrix[current_comparison, 0] <= counts[max_index]:
+                value = values[max_index]
+                column = int(self.iteration_matrix[0, 3])
+                self.iteration_matrix = self.iteration_matrix[1:]
+                return value,column
+            else:
+                self.iteration_matrix[0, 0] = counts[max_index]
+                self.iteration_matrix[0, 1] = values[max_index]
+                self.iteration_matrix = self.iteration_matrix[self.iteration_matrix[:, 0].argsort()]
+                self.iteration_matrix = self.iteration_matrix[::-1]
+
+        raise ValueError("No column found")
 
     def _add_column(self, cols_ids_bic, rows_ids_bic, column, rows):
         """
@@ -187,7 +222,38 @@ class Hbic:
             todelete.sort(reverse=True)
             for j in todelete:
                 self.biclusters.pop(j)
-    
+
+
+        
+    def _select_pareto_front(self):
+        """
+        Internal function to select biclusters in the pareto front and discard others
+        """
+        quality_scores = quality.quality_evaluation_biclusters(self.biclusters, self.data, self.var_type)
+        size_scores = quality.sizes(self.biclusters)
+        #normalisation 
+        quality_scores = (quality_scores / max(max(quality_scores), 1))
+        size_scores = 1 - (size_scores / max(max(size_scores), 1))
+        scores = zip(quality_scores, size_scores)
+        pareto_optimal_ind = distance.is_pareto_efficient(np.array(list(scores)))
+        self.biclusters = [self.biclusters[i] for i in range(len(self.biclusters)) if pareto_optimal_ind[i]]
+
+    def _select_distance(self, n_bic):
+        """
+        Internal function to select biclusters by distance L2 distance to the origin of a quality, size graph
+        The selected biclusters are the n bics that are the closest to the origin, with n being the biggest gap in quality
+        """
+        scores = quality.L2_score_biclusters(self.biclusters, self.data, self.var_type)
+        sorted_scores = np.sort(scores)[::-1]
+        if n_bic is None:
+            if sorted_scores[0] == np.mean(sorted_scores): #If score is constant we keep all biclusters
+                n_bic = len(sorted_scores)
+            else:
+                differences = np.diff(sorted_scores)[::-1]
+                n_bic = len(differences) - np.argmin(differences) 
+        selected = [bic for _, bic in sorted(zip(scores, self.biclusters), key = lambda t: t[0])][-n_bic:]
+        self.biclusters = [s for s in selected]
+
     def _merge(self, indices):
         """
         Internal function to merge the biclusters inside of self.biclusters at specified indices
@@ -197,7 +263,6 @@ class Hbic:
         
         :return: tuple of two numpy.ndarray masks representing the bicluster composed of merged biclusters
         """
-        
         cols_ids_bic = np.full(self.biclusters[indices[0]][1].shape[0], False)
         rows_ids_bic = np.full(self.biclusters[indices[0]][0].shape[0], False)
         for i in indices:
@@ -219,11 +284,11 @@ class Hbic:
         
     
     
-    def _tree_select(self, indices):
+    def _tree_select(self, indices, score):
         """
         Internal function to return the biclusters with the best scores for a selected branch
         """
-        best_ind = np.argmax(self.score[indices])
+        best_ind = np.argmax(score[indices])
         return self.biclusters[indices[best_ind]]
         
     def _construct_linkage(self):
@@ -236,13 +301,14 @@ class Hbic:
         return linkage_matrix
     
     def tree_select_reduction(self):
+        score = quality.score_biclusters(self.biclusters, self.data, self.var_type)
         linkage_matrix = self._construct_linkage()
         assigned_clusters = cut_tree(linkage_matrix, n_clusters = self.n_clusters)
         cluster_values = np.unique(assigned_clusters)
         biclusters = []
         for i in cluster_values:
             ind = np.where(assigned_clusters == cluster_values[i])[0]
-            b = self._tree_select(ind)
+            b = self._tree_select(ind, score)
             biclusters.append(b)
         self.biclusters = biclusters
     
@@ -264,19 +330,22 @@ class Hbic:
         """
         Select the self.n_clusters clusters biclusters generated by the fit method and update self.biclusters
         """
-        indices = np.argpartition(self.score, -self.n_clusters)[-self.n_clusters:]
+        score = quality.score_biclusters(self.biclusters, self.data, self.var_type)
+        indices = np.argpartition(score, -self.n_clusters)[-self.n_clusters:]
         # Sorting indices according to the best quality biclusters
-        indices = [ind for _, ind in sorted(zip(self.score, indices))]
+        indices = [ind for _, ind in sorted(zip(score, indices))]
         bic = self.biclusters
         self.biclusters = []
         for i in indices:
             self.biclusters.append(bic[i])
-        self.score = self.score[indices]
+        score = score[indices]
         
-    def reduce(self):
+        
+
+    def reduce(self, n_clusters):
         """
-        Reduce the number of biclusters found by the algorithm with either merging strategies or selection strategies
-        
+        Reduce the number of biclusters found to self.n_clusters
+
         """
         if len(self.biclusters) <= 1:
             return
@@ -284,16 +353,29 @@ class Hbic:
             self._auto_select_nb_clusters()
             
             
-        if self.reduction == "merge" and self.n_clusters < len(self.biclusters):
-            self.merge_reduction()
-        elif self.reduction == "selection" and self.n_clusters < len(self.biclusters):
-            self.select_reduction()
-        elif self.reduction == "tree_selection" and self.n_clusters < len(self.biclusters) :
-            self.tree_select_reduction()
+        if self.reduction == "merge":
+            if n_clusters < len(self.biclusters):
+                self.merge_reduction()
+        elif self.reduction == "selection" :
+            if n_clusters < len(self.biclusters):
+                self.select_reduction()
+        elif self.reduction == "tree_selection":
+            if n_clusters < len(self.biclusters) :
+                self.tree_select_reduction()
+        elif self.reduction == "pareto":
+            self._select_pareto_front()
+        elif self.reduction == "distance":
+            self._select_distance(n_clusters)
+        elif self.reduction == None:
+            return
+        else:
+            raise ValueError(
+                "reduction parameter must be 'distance', 'pareto', 'selection', 'tree_selection', 'merge' or None not: " + str(self.reduction)
+            )
 
             
         
-    def fit(self, data, var_type="Numeric"):
+    def fit(self, data, var_type=None, n_clusters = "auto"):
         """
         Use the Hbic algorithm to create biclusters
 
@@ -302,7 +384,9 @@ class Hbic:
         :param var_type: list of int indicating the type of each column of data
 
         """
-        if type(var_type) == str:
+        if var_type is None:
+            var_type = discretization.infer_var_type(data)
+        elif type(var_type) == str:
             var_type = np.full(data.shape[1], var_type)
         var_type = np.array(var_type)
         self.var_type = var_type
@@ -312,10 +396,13 @@ class Hbic:
         self.n_minrows = max(int(n_rows * self.min_rows_prop), self.min_rows_abs)
         self.biclusters = []
 
+        
         arr_discretized = discretization.discretize(data, self.nbins, var_type)
+        starting_columns = range(n_cols)
+        starting_columns = self.random_state.choice(starting_columns, int(n_cols * self.column_proportion), replace=False)
 
         # We consider each column and each value of each column as a starting point
-        for col_index in tqdm(range(n_cols), disable=not self.verbose):
+        for col_index in tqdm(starting_columns, disable=not self.verbose):
             # Used in _find_best_column for optimisation purposes
             self.check = True
 
@@ -359,16 +446,10 @@ class Hbic:
                     self.biclusters.append(biggest_bic)
         self._remove_repeated_bic()
         
-        if len(self.biclusters) > 1:
-            self.score = quality.score_biclusters(self.biclusters, data, var_type)
-        else:
-            self.score = []
-            
-        self.reduce()
+        self.reduce(n_clusters)
         
         
-        
-    def fit_predict(self, data, var_type="Numeric"):
+    def fit_predict(self, data, var_type=None, n_clusters = None):
         """
         Use the Hbic algorithm and returns biclusters
 

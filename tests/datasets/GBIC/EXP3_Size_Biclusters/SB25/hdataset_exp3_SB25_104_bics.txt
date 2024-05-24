@@ -1,0 +1,111 @@
+Total of planted biclusters: 3
+Number of planted numeric biclusters: 1
+Number of planted symbolic biclusters: 1
+Number of planted mixed biclusters: 1
+Bicluster coverage: 0.375%
+Missing values on dataset: 0.0%
+Noise values on dataset: 0.0%
+Errors on dataset: 0.0%
+
+
+*** Numeric Biclusters *** 
+
+Bicluster #1 (25, 25)
+Rows=[6,8,202,208,249,256,272,304,347,370,450,556,579,580,584,635,652,763,830,837,931,946,973,975,993], Columns=[15,16,18,32,37,62,92,95,98,112,115,134,143,151,152,154,173,182,193,195,204,209,211,214,225], RowPattern=Constant, ColumnPattern=None, %Missings=0, %Noise=0, %Errors=0, PlaidCoherency=No Overlapping
+
+X	y15	y16	y18	y32	y37	y62	y92	y95	y98	y112	y115	y134	y143	y151	y152	y154	y173	y182	y193	y195	y204	y209	y211	y214	y225
+x6	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x8	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x202	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x208	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x249	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x256	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x272	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x304	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x347	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x370	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x450	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x556	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x579	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x580	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x584	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x635	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x652	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x763	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x830	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x837	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x931	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x946	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x973	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x975	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+x993	-8.41	9.25	-5.18	-3.46	-1.73	-7.33	8.1	1.69	-7.36	3.95	8.6	-3.62	9.61	-8.64	-4.58	-4.7	0.18	-8.29	-4.07	-1.9	-4.4	-5.51	-7.12	-8.88	-3.82
+
+
+*** Symbolic Biclusters *** 
+
+Bicluster #0 (25, 25)
+Rows=[15,80,112,138,143,192,195,291,360,473,518,588,603,642,720,723,726,731,744,770,826,855,875,996,999], Columns=[255,278,286,297,313,333,334,335,372,373,378,409,413,415,431,433,444,446,456,459,466,468,480,487,496], RowPattern=Constant, ColumnPattern=None, %Missings=0, %Noise=0, %Errors=0 PlaidCoherency=No Overlapping
+
+X	y255	y278	y286	y297	y313	y333	y334	y335	y372	y373	y378	y409	y413	y415	y431	y433	y444	y446	y456	y459	y466	y468	y480	y487	y496
+x15	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x80	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x112	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x138	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x143	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x192	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x195	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x291	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x360	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x473	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x518	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x588	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x603	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x642	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x720	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x723	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x726	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x731	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x744	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x770	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x826	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x855	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x875	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x996	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+x999	dd	ii	ii	ff	ii	dd	jj	jj	ee	jj	aa	aa	bb	jj	ii	aa	gg	hh	ff	bb	bb	aa	ff	bb	gg
+
+
+*** Mixed Biclusters *** 
+
+Bicluster #2 (25, 25)
+Rows=[0,13,49,83,110,154,194,204,229,355,387,397,479,505,544,567,613,674,745,750,809,856,878,947,951], Numeric Columns=[3,49,84,88,100,160,198,236,237,245], Symbolic Columns=[259,270,325,354,364,381,387,408,422,427,451,461,482,493,495]
+Numeric Properties:  RowPattern=Constant, ColumnPattern=None, PlaidCoherency=No Overlapping
+Symbolic Properties:  RowPattern=Constant, ColumnPattern=None
+%Missings=0, %Noise=0, %Errors=0,
+
+X	y3	y49	y84	y88	y100	y160	y198	y236	y237	y245	y259	y270	y325	y354	y364	y381	y387	y408	y422	y427	y451	y461	y482	y493	y495
+x0	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x13	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x49	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x83	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x110	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x154	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x194	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x204	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x229	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x355	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x387	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x397	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x479	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x505	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x544	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x567	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x613	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x674	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x745	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x750	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x809	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x856	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x878	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x947	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+x951	-8.54	-4.21	3.04	-3.78	-5.17	-2.19	4.36	4.27	-1.91	2.76	dd	ff	gg	hh	ff	ii	ff	gg	dd	gg	ee	ff	ii	ii	hh
+

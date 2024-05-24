@@ -2,3 +2,4 @@
 hbic/__pycache__/hbic.cpython-39.pyc
 hbic/__pycache__/__init__.cpython-39.pyc
 *.pyc
+*.csv
