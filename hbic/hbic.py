@@ -238,11 +238,12 @@ class Hbic:
         pareto_optimal_ind = distance.is_pareto_efficient(np.array(list(scores)))
         self.biclusters = [self.biclusters[i] for i in range(len(self.biclusters)) if pareto_optimal_ind[i]]
 
-    def _select_distance(self, n_bic):
+    def _select_distance(self):
         """
         Internal function to select biclusters by distance L2 distance to the origin of a quality, size graph
         The selected biclusters are the n bics that are the closest to the origin, with n being the biggest gap in quality
         """
+        n_bic = self.n_clusters
         scores = quality.L2_score_biclusters(self.biclusters, self.data, self.var_type)
         sorted_scores = np.sort(scores)[::-1]
         if n_bic is None:
@@ -342,7 +343,7 @@ class Hbic:
         
         
 
-    def reduce(self, n_clusters):
+    def reduce(self):
         """
         Reduce the number of biclusters found to self.n_clusters
 
@@ -354,18 +355,18 @@ class Hbic:
             
             
         if self.reduction == "merge":
-            if n_clusters < len(self.biclusters):
+            if self.n_clusters < len(self.biclusters):
                 self.merge_reduction()
         elif self.reduction == "selection" :
-            if n_clusters < len(self.biclusters):
+            if self.n_clusters < len(self.biclusters):
                 self.select_reduction()
         elif self.reduction == "tree_selection":
-            if n_clusters < len(self.biclusters) :
+            if self.n_clusters < len(self.biclusters) :
                 self.tree_select_reduction()
         elif self.reduction == "pareto":
             self._select_pareto_front()
         elif self.reduction == "distance":
-            self._select_distance(n_clusters)
+            self._select_distance()
         elif self.reduction == None:
             return
         else:
@@ -395,7 +396,7 @@ class Hbic:
         self.n_mincols = max(int(n_cols * self.min_cols_prop), self.min_cols_abs)
         self.n_minrows = max(int(n_rows * self.min_rows_prop), self.min_rows_abs)
         self.biclusters = []
-
+        self.n_clusters = n_clusters
         
         arr_discretized = discretization.discretize(data, self.nbins, var_type)
         starting_columns = range(n_cols)
@@ -446,7 +447,7 @@ class Hbic:
                     self.biclusters.append(biggest_bic)
         self._remove_repeated_bic()
         
-        self.reduce(n_clusters)
+        self.reduce()
         
         
     def fit_predict(self, data, var_type=None, n_clusters = None):
@@ -460,6 +461,6 @@ class Hbic:
         first array is a mask on the rows and the second is a mask on the columns
         """
 
-        self.fit(data, var_type)
+        self.fit(data, var_type, n_clusters=n_clusters)
 
         return self.biclusters
