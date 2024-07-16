@@ -1,5 +1,5 @@
 import numpy as np
-
+import pandas as pd
 # Utils
 def discretize(data, nbins=10, var_type=None):
     """
@@ -15,7 +15,7 @@ def discretize(data, nbins=10, var_type=None):
     output_arr = np.zeros(data.shape)
     for col_index, col_type in enumerate(var_type):
         if col_type == "Numeric":
-            nan_mask = np.isnan(data[:,col_index])
+            nan_mask = pd.isnull(data[:,col_index])
             if nan_mask.any():
                 bins = np.linspace(np.nanmin(data[:, col_index]), np.nanmax(data[:, col_index]), nbins - 1)
                 output_arr[:, col_index] = np.digitize(data[:, col_index], bins) - 1

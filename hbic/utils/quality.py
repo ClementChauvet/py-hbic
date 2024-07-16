@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 
 def quality_evaluation_bicluster(bicluster, data, var_type=None, **kwargs):
     """
@@ -90,12 +91,19 @@ def sizes(biclusters):
         sizes[i] = sum(biclusters[i][0]) * sum(biclusters[i][1])
     return sizes
 
+def average_missing_values(biclusters, data, sizes):
+    missing = np.zeros(len(biclusters))
+    for i in range(len(biclusters)):
+        missing[i] = np.sum(pd.isnull(data[np.ix_(biclusters[i][0], biclusters[i][1])]))/sizes[i]
+    return missing
+
 def score_biclusters(biclusters, data, var_type = "Numeric", lambda_hat = .5):
     q = quality_evaluation_biclusters(biclusters, data, var_type)
     q = 1 - (q / max(max(q), 1))
     s = sizes(biclusters)
+    amv = average_missing_values(biclusters, data, s)
     s = s / max(s)
-    final_score = lambda_hat * s + (1 - lambda_hat) * q 
+    final_score = lambda_hat * s + (1 - lambda_hat) * q - amv
     return(final_score)
 
 def L2_score_biclusters(biclusters, data, var_type, lambda_hat = .5):
