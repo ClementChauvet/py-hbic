@@ -20,11 +20,11 @@ pip install git+https://github.com/ClementChauvet/heterogeneous_biclustering
 Here's how to identify biclusters for a numeric dataset
 
 ```
-import heterogeneous_biclustering.hbic as hbic
+from hbic import Hbic
 import numpy as np
 
 data = np.random.uniform(0, 10, (100, 100))
-model = hbic.Hbic()
+model = Hbic()
 biclusters = model.fit_predict(data)
 print(biclusters)
 ```
@@ -39,7 +39,7 @@ data = np.empty((100,100))
 data[:, :50] = np.random.uniform(0, 10, (100, 50))
 data[:, 50:] = np.random.randint(0, 10, (100, 50))
 var_type = ["Numeric" if i < 50 else "Categorical" for i in range(100)]
-model = hbic.Hbic()
+model = Hbic()
 biclusters = model.fit_predict(data)
 print(biclusters)
 ```
@@ -51,16 +51,16 @@ To have better performances it is advised to specify a clustering method chosen 
 + "selection"
 + "merging"
 
-The best algorithm will depend on the data you have but the most robust and stable from our experiences seemed to be tree_selection
+The best algorithm will depend on the data you have but the most robust and stable from our experiences seemed to be distance-based selection
 If you know the number of biclusters to find, you can also specify it by passing it through the "n_clusters" parameter of hbic. The algorithm will then return at most this number of biclusters
 
 Here is an example with a reduction and a specified number of biclusters to look for: 
 ```
-import heterogeneous_biclustering.hbic as hbic
+from hbic import Hbic
 import numpy as np
 
 data = np.random.uniform(0, 10, (100, 100))
-model = hbic.Hbic(reduction = "tree_selection", n_clusters = 4)
+model = Hbic(reduction = "pareto", n_clusters = 4)
 biclusters = model.fit_predict(data)
 print(biclusters)
 ```
