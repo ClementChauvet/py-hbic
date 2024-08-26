@@ -50,16 +50,12 @@ class Hbic:
         if passed the algorithm will reduce the number of biclusters found to obtain n_clusters
         a n_clusters parameter must also be passed
 
-            'merging' : after an initial phase of bicluster detection, the algorithm will merge
-            the most similar biclusters to obtain n_clusters
+            'pareto' : after an initial phase of bicluster detection, the algorithm will select only 
+            the biclusters that are in the pareto front of the quality and size graph
 
-            'selection' : after an initial phase of bicluster detection, the algorithm will generate
-            a dendogram of the biclusters following WARD procedure, the algorithm will then
-            cut the dendogram according to n_cluster and the clusters in each branches will be merged
+            'distance' : after an initial phase of bicluster detection, the algorithm will select only
+            the n_clusters biclusters that are the closest to the origin of the quality and size graph
 
-            'tree_selection' : after an initial phase of bicluster detection, the algorithm will generate
-            a dendogram of the biclusters following WARD procedure, the algorithm will then
-            cut the dendogram according to n_cluster and the biggest clusters of each branch will be selected
             
         :param verbose: bool, default = False
         Print out information during the process
