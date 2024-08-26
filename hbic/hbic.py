@@ -61,7 +61,6 @@ class Hbic:
         Print out information during the process
 
         """
-        # TODO : Revoir param reduction description
 
         if (
             isinstance(min_rows, Iterable)
