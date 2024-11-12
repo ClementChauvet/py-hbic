@@ -2,7 +2,7 @@
 Heterogeneous Biclustering (Hbic) is a biclustering algorithm for data with heterogeneous types mixing numeric and categorical attributes natively. Biclustering algorithms are a family of unsuppervised machine learning algorithms that cluster the rows and the columns of a data table. The aims is to create meaningful and coherent sub-matrices when dealing with very high dimensional data where classical clustering algorithms fail to detect key-differences in a limited number of variables.
 
 ## Paper
-This is the official python implementation repository of the hbic paper: &link and credentials&
+This is the official python implementation repository of the hbic paper: ```José-García, A., Jacques, J., Chauvet, C., Sobanski, V., & Dhaenens, C. (2024). HBIC: A Biclustering Algorithm for Heterogeneous Datasets. European Conference on Artificial Intelligence 2024 (ECAI).```
 
 ## Tutorial
 Examples of how to use the package can be found in hbic_examples.ipynb where we present the algorithm on synthetic and real datasets
